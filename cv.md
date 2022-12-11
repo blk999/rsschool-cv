@@ -1,19 +1,28 @@
-Sergey Khvorostinov
-Contacts
-phone: +995599061098;
-e-mail: bbbulka@gmail.com;
-telegram: @bbbulka;
-GitHub: https://github.com/blk999;
-About me
+# Sergey Khvorostinov
+
+## Contacts
+
++ phone: +995599061098
++ e-mail: bbbulka@gmail.com
++ telegram: @bbbulka
++ GitHub: <https://github.com/blk999>
+
+## About me
+
 I have been interested in computers and the Internet for more than 20 years, today I want to know how it works on a serious level, and if I like it, then it is quite possible to find a job related to this.
-Skills
-HTML
-CSS
-Javascript (fundamentals)
-Git/GitHub
-Google
-VSCode
-Code example
+
+## Skills
+
++ HTML
++ CSS
++ Javascript (fundamentals)
++ Git/GitHub
++ Google
++ VSCode
+
+## Code example
+
+```
 const encrypt = (word) => {
   let result = '';
  
@@ -23,9 +32,15 @@ const encrypt = (word) => {
   };
     return (word.length % 2 === 0) ? result : result + word[word.length - 1];
 };
-Education
-Altai State Technical University
+```
+
+## Education
+
+[Altai State Technical University](https://en.altstu.ru/)
+
 Management in mechanical engineering
-Languages
-Russian - Native
-English -  C1 advanced (www.efset.org)
+
+## Languages
+
++ Russian - Native
++ English -  C1 advanced ([www.efset.org](www.efset.org))
