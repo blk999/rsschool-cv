@@ -1,19 +1,33 @@
 * {
-    box-sizing: border-box;
-  };
+  box-sizing: border-box;
+}
 
-header {
-    border: 1px solid red;
-  };
+body {
+  min-height: 100vh;  
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-main {
-    border: 1px solid red;
-  };
+.header {
+  border: 3px solid red;
+}
 
-footer {
-    border: 1px solid red;
-  };
+.main {
+  border: 3px solid red;
+}
+
+.footer {
+  border: 3px solid red;
+}
 
 p {
-    color:aqua
-};
+  color:aqua;
+  border: 3px solid red;
+}
+
+h2 {
+  border: 3px solid red;
+}
