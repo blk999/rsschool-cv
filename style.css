@@ -4,30 +4,36 @@
 
 body {
   min-height: 100vh;  
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.header {
-  border: 3px solid red;
-}
-
-.main {
-  border: 3px solid red;
+  margin: 20;
+  font-size: 18px;
 }
 
 .footer {
-  border: 3px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-p {
-  color:aqua;
-  border: 3px solid red;
+.nav {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h2 {
-  border: 3px solid red;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+} 
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.code {
+  background-color: #5f9ea0;
+  width: 60%;
 }
