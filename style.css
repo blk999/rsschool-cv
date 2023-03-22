@@ -4,17 +4,12 @@
 
 body {
   min-height: 100vh;  
-  margin: 20;
+  margin: 20px;
   font-size: 18px;
 }
 
+.nav,
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav {  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,5 +30,6 @@ body {
 
 .code {
   background-color: #5f9ea0;
-  width: 60%;
+  padding-right: 70px;
+  display:inline-block;
 }
