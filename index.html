@@ -50,9 +50,9 @@
       <pre class="code">
         <code >const encrypt = (word) =&gt; {
         let result = '';
-        
+
         for (let i = 0; i &lt; (word.length - 1); i += 2) {
-        
+
         result = `${result}${word[i + 1]}${word[i]}`;
         };
         return (word.length % 2 === 0) ? result : result + word[word.length - 1];
