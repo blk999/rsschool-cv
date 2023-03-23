@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="nav list">
+        <li><a href="#contacts" class="link">Contacts</a></li>
+        <li><a href="#about" class="link">About</a></li>
+        <li><a href="#skills" class="link">Skills</a></li>
+        <li><a href="#code" class="link">Code</a></li>
+        <li><a href="#education" class="link">Education</a></li>
+        <li><a href="#languages" class="link">Languages</a></li>
+      </ul>
+  </nav>
+    <img src="assets/img/myfoto.jpg" alt="myavatar" width="172" height="129">
+    <h1>Sergey Khvorostinov</h1>
+  </header>
+  <main class="main container">
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <ul class="list">
+        <li>phone: +995599061098</li>
+        <li>e-mail: bbbulka@gmail.com</li>
+        <li>telegram: @bbbulka</li>
+        <li>GitHub: <a class="link" href="https://github.com/blk999">https://github.com/blk999</a></li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>I have been interested in computers and the Internet for more than 20 years, today I want to know how it works on a serious level and if I like it then it is quite possible to find a job related to this.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript (fundamentals)</li>
+        <li>Git/GitHub</li>
+        <li>Google</li>
+        <li>VSCode</li>
+      </ul>
+    </section>
+    <section id="code">
+      <h2>Code</h2>
+      <pre class="code">
+        <code>
+        const encrypt = (word) =&gt; {
+        let result = '';
+        for (let i = 0; i &lt; (word.length - 1); i += 2) {
+        result = `${result}${word[i + 1]}${word[i]}`;
+        };
+        return (word.length % 2 === 0) ? result : result + word[word.length - 1];
+        };
+        </code>
+      </pre>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p><a class="link" href="https://en.altstu.ru/">Altai State Technical University</a></p>
+    </section>
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul class="list">
+        <li>Russian - Native</li>
+        <li>English - C1 advanced (<a class="link" href="www.efset.org">www.efset.org</a>)</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer container">
+    <a class="link" href="https://github.com/blk999/" target="_blank">My GitHub</a>
+    <p>2022</p>
+    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="50"></a>
+  </footer>
+</body>
+</html>
